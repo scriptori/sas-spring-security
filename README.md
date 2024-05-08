@@ -39,7 +39,8 @@ Below are the steps for the setup and the installation:
 <ol>
   <li><b>Clone the repository:</b>
     <pre><code>
-    > git clone https://github.com/scriptori/sas-spring-security.git<br>    > cd sas-spring-security
+    > git clone https://github.com/scriptori/sas-spring-security.git<br>
+    > cd sas-spring-security
     </code></pre>
   </li>
   <li><b>Build the project:</b>
