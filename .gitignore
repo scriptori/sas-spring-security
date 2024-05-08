@@ -31,3 +31,6 @@ buildNumber.properties
 *.war
 *.ear
 *.jar
+
+# VS Code
+.vscode/
