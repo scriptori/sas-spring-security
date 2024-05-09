@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <title>SAS Create Account Form</title>
     
+    <!-- Add the following line to include the CSS file, but for some reason it is not working -->
     <!-- <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/styles.css" type="text/css"> -->
     
+    <!-- Add the following CSS code to style the form in here -->
     <style>
         body, html {
             margin: 0;
@@ -80,10 +82,6 @@
         <div class="form-container">
             <form:form action="sasProcessAccount" method="POST" modelAttribute="addAccount">
                 <h2>Create Account</h2>
-                <div>
-                    <label for="username">Email:</label>
-                    <form:input type="text" id="email" name="email" path="email"/>
-                </div>
                 <div>
                     <label for="username">Username:</label>
                     <form:input type="text" id="username" name="username" path="username"/>

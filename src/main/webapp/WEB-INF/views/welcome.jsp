@@ -93,9 +93,11 @@
         </div>
         <div class="content">
             <div class="message">
-                <p>Welcome to the demonstration of using Spring Security version 6.0 and above.</p>
-                <p>This is part of the SAS Interview process for the position of Senior Software Developer - Midtier Platform Team.</p>
-                <p><a href="welcome">Let's come in!</a> or <a href="sasCreateAccount">Create an Account</a></p>
+                <H2>Congratulations!!!</H2>
+                <p>You have completed the SAS Interview process for the position of Senior Software Developer - Midtier Platform Team.</p>
+                <p>Thank you for your time and for the opportunity to be part of the SAS family.</p>
+                <p>Looking forward to working with you!</p>
+                <p><a href="${pageContext.request.contextPath}/logout">Log out</a></p>
             </div>
         </div>
         <div class="footer">

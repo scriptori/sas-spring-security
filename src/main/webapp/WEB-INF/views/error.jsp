@@ -32,7 +32,7 @@
         }
         .message {
             text-align: center;
-            max-width: 450px;
+            max-width: 600px;
             border: 1px solid #ccc;
             padding: 20px;
             border-radius: 10px;
@@ -55,7 +55,8 @@
         <div class="content">
             <div class="message">
                 <h2>Sorry, something went wrong.</h2>
-                <p>${request.getAttribute("errorMessage")}</p> <!-- Display the error message from request -->
+                <p><%= request.getAttribute("errorMessage") %></p> <!-- Display the error message from request -->
+                <p><a href="${pageContext.request.contextPath}">Home</a> or <a href="sasCreateAccount">Try again...</a></p>
             </div>
         </div>
         <div class="footer">
