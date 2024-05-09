@@ -1,10 +1,10 @@
 # SAS Spring Security Web Application
 ### Project Overview
-The SAS Spring Security Web Application is a Java-based web application designed for account management and authentication.<br>
-It employs Spring Framework technologies including Spring MVC, Spring Security, and is deployed as a JAR file suitable for any Java EE web container.
+The SAS Spring Security Web Application is a Java-based account management and authentication web application.<br>
+It employs Spring Framework technologies, including Spring MVC and Spring Security, and is deployed as a JAR file suitable for any Java EE web container.
 
 ### Features
-* **User Authentication**: Login and session management using Spring Security.
+* **User Authentication**: Log in and session management using Spring Security.
 * **Account Management**: Add and manage user accounts.
 * **Database Support**: Store user information in the MySQL database.
 * **Password encryption**: Password hash encoded before persistence.
@@ -38,7 +38,7 @@ It employs Spring Framework technologies including Spring MVC, Spring Security, 
 ```md
 src
 ├── main
-│   ├── java                         => Contains Java source files including controllers, services, and configuration.
+│   ├── java                         => Contains Java source files, including controllers, services, and configuration.
 │   │   └── me
 │   │       └── scriptori
 │   │           └── saswebapp        => The Root Package of the Java Sprint and Spring Security Java Code.
@@ -59,9 +59,9 @@ src
             └── scriptori
                 └── saswebapp
                     ├── config       => Package for the Configurations test cases.
-                    ├── controller   => Package for the Controllers test cases.
-                    ├── handler      => Package for the Handlers test cases.
-                    └── initializer  => Package for the Initializers test cases.
+                    ├── controller   => Package for the Controller's test cases.
+                    ├── handler      => Package for the Handler's test cases.
+                    └── initializer  => Package for the Initializer's test cases.
 
 ```
 
@@ -80,8 +80,8 @@ Below are the steps for the setup and the installation:
     > mvn clean install
     </code></pre>
   </li>
-  <li><b>Deploy the WAR file to your Servlet container:</b></p>
-  Place the generated WAR file from <code>target/</code> directory into your servlet container's webapps directory.
+  <li><b>Deploy the JAR file to your Servlet container:</b></p>
+  Place the generated JAR file from <code>target/</code> directory into your servlet container's <code>webapps/</code> directory.
   </li>
 </ol>
 
@@ -89,9 +89,15 @@ Below are the steps for the setup and the installation:
 * Start your servlet container.
 * Access the Web Application at [http://localhost:8080/sas-spring-security/](http://localhost:8080/sas-spring-security/).
 
-### Contributing
-Contributions are welcome! Please feel free to submit pull requests or open issues to discuss proposed changes or enhancements.
+### Contributions
+Contributions are welcome! Please submit pull requests or open issues to discuss proposed changes or enhancements.
 
 ### License
-Specify the license under which the project is made available, e.g., MIT, GPL, etc.
+Copyright 2024 Scriptori - Claudio de Souza
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
